@@ -9,7 +9,7 @@ const Navbar = () => {
     
   return (
     <div>
-      <div className='z-10 text-gray-500 flex justify-between items-center max-w-[1240px] mx-auto h-24 px-4 text-l '>
+      <div className='text-gray-500 flex justify-between items-center max-w-[1240px] mx-auto h-24 px-4 text-l '>
 
 
         <h1 className='text-3xl font-bold primary-color ml-4'>A.PARK</h1>
@@ -33,10 +33,9 @@ const Navbar = () => {
             <li className='p-2'><a href="#work">Work</a></li>
             <li className='p-2'><a href="#experience">Experience</a></li>
             <li className='p-2'><a href="#contact">Contact</a></li>
-        </ul>
+        </ul></div>
 
-        
-       </div>
+
       </div>
     </div>
   )

@@ -10,7 +10,7 @@ const About = () => {
             <div className='md:w-[1100px] sm:w-[400px] h-full'>
                 <img src={aboutImg} 
                 alt=""
-                className='object-cover rounded-xl h-[300px] filter grayscale
+                className='object-cover md:object-left rounded-xl h-[300px] filter grayscale
                 brightness-50' />
             </div>
 
