@@ -11,7 +11,7 @@ const Hero = () => {
 
                             <div className=' flex-col my-auto mx-auto md:mx-0'>
                                 <p className='md:text-5xl sm:text-4xl text-xl font-bold text-gray-200'>Hi! I am Ariana</p>
-                                <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
+                                <h1 className='md:text-5xl sm:text-6xl text-4xl font-bold md:py-6'>
                                     <TypeAnimation
                                     sequence={[
                                         "Frontend Dev",
