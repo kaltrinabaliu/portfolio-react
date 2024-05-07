@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Hero from "./components/Hero";
+import Profile from "./components/Profile";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import Experience from "./components/Experience";
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Hero/>
+      <Profile/>
       <About/>
       <Work/>
       <Experience/>

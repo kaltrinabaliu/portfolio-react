@@ -12,7 +12,7 @@ const Contact = () => {
                     <h1 className="text-4xl sm:text-5xl text-white">
                         Contact <span>Me</span>
                     </h1>
-                    <p className="text-normal text-lg  text-gray-400 mt-2">
+                    <p className="text-lg  text-gray-400 mt-2">
                         Let's connect on LinkedIn <br />or sen me an Email
                     </p>
                     <div className="flex items-center mt-2 text-gray-400">

@@ -4,13 +4,13 @@ import aboutImg from '../assets/about4.jpg'
 const About = () => {
   return (
     <div className='py-10 text-white bg-[#232325] h-auto' id='about' >
-        <div className='flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
+        <div className='flex flex-col-reverse md:flex-row items-center md:gap-5 px-12 max-w-6xl mx-auto'>
 
         
             <div className='md:w-[1100px] sm:w-[400px] h-full'>
                 <img src={aboutImg} 
                 alt=""
-                className='object-cover md:object-left rounded-xl h-[300px] filter grayscale
+                className='object-cover md:object-left rounded-xl md:h-[300px] filter grayscale
                 brightness-50' />
             </div>
 
@@ -27,7 +27,7 @@ const About = () => {
             </div>
         </div>
 
-        <div className='flex mt-10 items-center md:gap-7 gap-1'>
+        <div className='flex mt-10 items-center md:gap-7 gap-1 my-2' >
         <div className='bg-[#333333]/40 lg:p-5 p-[27px] rounded-lg'>
             <h3 className='md:text-4xl text-2xl font-semibold text-white'>11
             <span>+</span>
